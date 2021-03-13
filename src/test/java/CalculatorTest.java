@@ -8,9 +8,21 @@ public class CalculatorTest {
         calculator = new App();
     }
     @Test
-    public void Add()
+    public void testPower()
     {
-        int ans=5+6;
-        Assert.assertEquals(ans, calculator.add(5,6),0);
+        double ans=125.0;
+        Assert.assertEquals(ans, calculator.power(5,3),0);
+    }
+@Test
+    public void testFac()
+    {
+        double ans=120;
+        Assert.assertEquals(ans, calculator.factorial(5),0);
+    }
+    @Test
+    public void testRoot()
+    {
+        double ans=8.0;
+        Assert.assertEquals(ans, calculator.root(64),0);
     }
 }
