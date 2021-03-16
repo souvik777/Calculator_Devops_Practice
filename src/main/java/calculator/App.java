@@ -5,7 +5,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class App {
-    private static final Logger logger=LogManager.getLogger(App.class);
+    
 
     public static void main(String args[])
     {
@@ -49,7 +49,7 @@ public class App {
     public static double root(int x)
     {
         double X=(double)x;
-        logger.info("Factorial of"+x+"="+Math.sqrt(X));
+        
         return (Math.sqrt(X));
     }
     public static int factorial(int x)
@@ -57,21 +57,21 @@ public class App {
         int ans=1;
         for(int i=2;i<=x;i++)
             ans=ans*i;
-        logger.info("Factorial of"+x+"="+ans);
+        
         return ans;
 
     }
     public static double log(int x)
     {
         double X=(double)x;
-        logger.info("Logarithm of"+x+"="+Math.log(X));
+        
         return (Math.log(X));
     }
     public static double power(int x,int y)
     {
         double X=(double)x;
         double Y=(double)y;
-        logger.info("Power of"+x+"and"+y+"="+Math.pow(X,Y));
+        
         return (Math.pow(X,Y));
     }
 }
