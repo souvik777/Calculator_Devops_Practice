@@ -1,2 +1,2 @@
-
-127.0.0.1 ansible_user=souvik
+[remoteServer]
+127.0.0.1 ansible_user=souvik ansible_python_interpreter=/usr/bin/python3
