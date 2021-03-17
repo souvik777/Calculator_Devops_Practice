@@ -1,0 +1,12 @@
+2021-03-17 16:26:06.230 [main] INFO  calculator.App - Factorial of5=120
+2021-03-17 16:26:06.238 [main] INFO  calculator.App - Power of5and3=125.0
+2021-03-17 16:26:06.240 [main] INFO  calculator.App - Factorial of361=19.0
+2021-03-17 16:26:06.241 [main] INFO  calculator.App - Factorial of225=15.0
+2021-03-17 16:26:06.243 [main] INFO  calculator.App - Factorial of196=14.0
+2021-03-17 16:26:06.244 [main] INFO  calculator.App - Factorial of6=720
+2021-03-17 16:26:06.246 [main] INFO  calculator.App - Factorial of4=24
+2021-03-17 16:26:06.247 [main] INFO  calculator.App - Factorial of2=2
+2021-03-17 16:26:06.252 [main] INFO  calculator.App - Factorial of64=8.0
+2021-03-17 16:26:06.253 [main] INFO  calculator.App - Power of4and3=64.0
+2021-03-17 16:26:06.255 [main] INFO  calculator.App - Power of4and4=256.0
+2021-03-17 16:26:06.256 [main] INFO  calculator.App - Power of3and3=27.0
