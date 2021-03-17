@@ -1,2 +1,2 @@
-172.16.129.155 ansible_user=souvik ansible_python_interpreter=/usr/bin/python3
+172.16.130.161 ansible_user=souvik ansible_python_interpreter=/usr/bin/python3
 
