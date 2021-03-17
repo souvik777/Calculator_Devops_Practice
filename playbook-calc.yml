@@ -1,7 +1,0 @@
----
-- name: Copy docker image to remoter server
-  hosts: server
-  tasks:
-    - copy:
-        src: ./target/calculatorpractice-1.0-SNAPSHOT.jar
-        dest: ~/
